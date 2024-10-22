@@ -1,0 +1,7 @@
+[user]
+	name = Greg Meinecke
+	email = gregmeinecke@gmail.com
+[color]
+	ui = true
+[init]
+	defaultBranch = main
