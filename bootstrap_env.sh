@@ -70,12 +70,10 @@ main () {
     link "$DOTFILES_ROOT/pip.conf" "$HOME/.pip/pip.conf"
     #link "$DOTFILES_ROOT/zsh/zshenv" "$HOME/.zshenv"
     link "$DOTFILES_ROOT/.zshrc" "$HOME/.zshrc"
-    link "$DOTFILES_ROOT/wezterm.lua" "$HOME/.wezterm.lua"
+    link "$DOTFILES_ROOT/.wezterm.lua" "$HOME/.wezterm.lua"
     link "$DOTFILES_ROOT/.tmux.conf" "$HOME/.tmux.conf"
     link "$DOTFILES_ROOT/.p10k.zsh" "$HOME/.p10k.zsh"
-    #mkdir -p "$HOME/.config"
-    #link "$DOTFILES_ROOT/nvim" "$HOME/.config/nvim"
-    #link "$DOTFILES_ROOT/starship.toml" "$HOME/.config/starship.toml"
+    link "$DOTFILES_ROOT/.vimrc" "$HOME/.vimrc"
 
 
     success "You're golden!"
