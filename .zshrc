@@ -109,10 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias hdc="clear && cd ~/hdc_repos && figlet -f larry3d HDC && tree -L 1"
 alias junks="clear && cd ~/junks && figlet -f poison junks && tree -L 1"
-alias azc="az cloud set --name AzureCloud; az login"
-alias azg="az cloud set --name AzureUSGovernment; az login"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
